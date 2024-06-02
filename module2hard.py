@@ -6,7 +6,7 @@ result = []
 print(x)
 for i in range(1,x):
     for j in range(i+1,x):
-        if int(i) != 0 and int(j) != 0 and x % (int(i) + int(j)) == 0 and i != j and i < j:
+        if x % (int(i) + int(j)) == 0  and i < j:
             result.append(i)
             result.append(j)
 
