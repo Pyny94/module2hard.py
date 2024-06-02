@@ -2,7 +2,7 @@ import random
 
 n = list(range(3,20))
 x = random.choice(n)
-result = []
+result = ''
 print(x)
 for i in range(1,x):
     for j in range(i+1,x):
@@ -10,6 +10,5 @@ for i in range(1,x):
             result.append(i)
             result.append(j)
 
-password = (" ".join(map(str,result)))
-print(password)
+print(result)
 
